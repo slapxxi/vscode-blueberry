@@ -165,33 +165,6 @@
     "panelTitle.activeForeground": "#5f7e97",
     "panelTitle.inactiveForeground": "#ffca28",
 
-    "statusBar.background": "#0a0a15",
-    "statusBar.foreground": "#555770",
-    "statusBar.border": "#262A39",
-    "statusBar.debuggingBackground": "#202431",
-    "statusBar.debuggingForeground": null,
-    "statusBar.debuggingBorder": "#1F2330",
-    "statusBar.noFolderForeground": null,
-    "statusBar.noFolderBackground": "#0a0a15",
-    "statusBar.noFolderBorder": "#25293A",
-    "statusBarItem.activeBackground": "#202431",
-    "statusBarItem.hoverBackground": "#202431",
-    "statusBarItem.prominentBackground": "#202431",
-    "statusBarItem.prominentHoverBackground": "#202431",
-
-    "titleBar.activeBackground": "#0a0a15",
-    "titleBar.activeForeground": "#eeefff",
-    "titleBar.inactiveBackground": "#010e1a",
-    "titleBar.inactiveForeground": null,
-
-    "notifications.background": "#0a0a15",
-    "notifications.foreground": "#ffffffcc",
-    "notificationLink.foreground": "#80CBC4",
-
-    "extensionButton.prominentForeground": "#ffffffcc",
-    "extensionButton.prominentBackground": "#7e57c2cc",
-    "extensionButton.prominentHoverBackground": "#7e57c2",
-
     "pickerGroup.foreground": "#d1aaff",
     "pickerGroup.border": "#0a0a15",
 
@@ -217,12 +190,15 @@
     "welcomePage.buttonBackground": "#0a0a15",
     "welcomePage.buttonHoverBackground": "#0a0a15",
     "walkThrough.embeddedEditorBackground": "#0a0a15",
+
     "gitDecoration.modifiedResourceForeground": "#a2bffc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#addb67ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
+
     "source.elm": "#5f7e97",
+
     "string.quoted.single.js": "#f3f3ff",
     "meta.objectliteral.js": "#1166ff"
   },
@@ -291,7 +267,9 @@
       "name": "Embedded",
       "scope": [
         "punctuation.section.embedded",
-        "punctuation.definition.template-expression"
+        "punctuation.definition.template-expression",
+        "meta.object-literal.key meta.array.literal meta.brace.square",
+        "meta.object-literal.key meta.array.literal variable.other.readwrite"
       ],
       "settings": {
         "foreground": "#50c7ff"
@@ -328,6 +306,7 @@
         "punctuation.definition",
         "punctuation.separator",
         "punctuation.terminator",
+        "meta.brace.square",
         "meta.brace.round"
       ],
       "settings": {
@@ -354,6 +333,7 @@
         "meta.definition.function entity.name.function",
         "meta.definition.property entity.name.function",
         "meta.definition.method entity.name.function",
+        "entity.name.type.alias",
         "entity.name.type.module",
         "entity.name.type.interface",
         "entity.name.type.enum",
