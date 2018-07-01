@@ -1,0 +1,22 @@
+{
+    "name": "vscode-blueberry",
+    "displayName": "vscode-blueberry",
+    "description": "VSCode Theme",
+    "version": "0.0.1",
+    "publisher": "vscode-blur",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blueberry",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blueberry-color-theme.json"
+            }
+        ]
+    }
+}
