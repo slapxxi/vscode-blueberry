@@ -114,7 +114,7 @@
     "merge.currentHeaderBackground": "#1166ff",
     "merge.incomingContentBackground": null,
     "merge.incomingHeaderBackground": "#1166ff33",
-    "meta.objectliteral.js": "#1166ff"
+    "meta.objectliteral.js": "#1166ff",
     "panel.background": "#0a0a15",
     "panel.border": "#1166ff",
     "panelTitle.activeBorder": "#1166ff",
@@ -199,6 +199,16 @@
       ],
       "settings": {
         "foreground": "#555771"
+      }
+    },
+    {
+      "name": "Text Cursive",
+      "scope": [
+        "meta.indexer.declaration variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#555771",
+        "fontStyle": "italic"
       }
     },
     {
