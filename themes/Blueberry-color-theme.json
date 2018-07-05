@@ -241,7 +241,7 @@
         "constant",
         "support.type",
         "support.constant.color",
-        "support.function.console.ts",
+        "support.class.console",
         "support.constant.property-value",
         "support.type.property-name.json",
         "variable.language.this",
@@ -349,7 +349,7 @@
         "entity.other.attribute-name.id",
         "meta.definition.function entity.name.function",
         "meta.definition.method entity.name.function",
-        "meta.definition.property entity.name.function",
+        "meta.definition.property entity.name.function"
       ],
       "settings": {
         "foreground": "#f3f3ff"
