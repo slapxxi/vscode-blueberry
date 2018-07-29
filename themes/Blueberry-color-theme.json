@@ -29,7 +29,7 @@
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
-    "editor.foreground": "#525470",
+    "editor.foreground": "#555774",
     "editor.hoverHighlightBackground": "#1166ff33",
     "editor.inactiveSelectionBackground": "#1166ff33",
     "editor.lineHighlightBackground": "#0003",
@@ -71,7 +71,7 @@
     "editorRuler.foreground": "#5e82ceb4",
     "editorSuggestWidget.background": "#111023",
     "editorSuggestWidget.border": "#111023",
-    "editorSuggestWidget.foreground": "#525470",
+    "editorSuggestWidget.foreground": "#555774",
     "editorSuggestWidget.highlightForeground": "#f3f3ff",
     "editorSuggestWidget.selectedBackground": "#222033",
     "editorWarning.border": null,
@@ -81,7 +81,7 @@
     "editorWidget.border": "#262A39",
     "errorForeground": "#EF5350",
     "focusBorder": "#122d42",
-    "foreground": "#525470",
+    "foreground": "#555774",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -197,7 +197,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#525470"
+        "foreground": "#555774"
       }
     },
     {
@@ -207,7 +207,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#454761"
+        "foreground": "#454763"
       }
     },
     {
@@ -218,7 +218,7 @@
         "meta.indexer.declaration variable.parameter"
       ],
       "settings": {
-        "foreground": "#525470",
+        "foreground": "#555774",
         "fontStyle": "italic"
       }
     },
@@ -228,7 +228,7 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#454761",
+        "foreground": "#454763",
         "fontStyle": "italic"
       }
     },
@@ -237,6 +237,9 @@
       "scope": [
         "support.function.misc",
         "support.function.gradient",
+        "support.function.name.postcss",
+        "support.function.transform.css",
+        "support.function.calc.css",
         "meta.function-call"
       ],
       "settings": {
@@ -366,17 +369,20 @@
       "name": "Name",
       "scope": [
         "entity.name.function.tagged-template",
+        "entity.name.section.group-title",
         "entity.name.type.alias",
         "entity.name.type.class",
         "entity.name.type.enum",
         "entity.name.type.interface",
-        "variable.css",
-        "variable.argument.css",
         "entity.name.type.module",
         "meta.definition.function entity.name.function",
         "meta.definition.method entity.name.function",
         "meta.definition.property entity.name.function",
-        "support.constant.property-value"
+        "support.constant.property-value",
+        "variable.argument.css",
+        "variable.css",
+        "variable.parameter.postcss",
+        "variable.postcss"
       ],
       "settings": {
         "foreground": "#f3f3ff",
@@ -387,6 +393,7 @@
       "name": "String",
       "scope": [
         "string",
+        "meta.scope.subject.git-commit",
         "string.quoted.double"
       ],
       "settings": {
@@ -405,5 +412,24 @@
         "foreground": "#f5cc23"
       }
     },
+    {
+      "name": "Markup",
+      "scope": [
+        "markup.changed.git-commit",
+        "markup.inserted.git-commit"
+      ],
+      "settings": {
+        "foreground": "#f5cc23"
+      }
+    },
+    {
+      "name": "Dangerous",
+      "scope": [
+        "markup.deleted.git-commit"
+      ],
+      "settings": {
+        "foreground": "#db3428"
+      }
+    }
   ]
 }
