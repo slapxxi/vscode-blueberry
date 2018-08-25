@@ -32,7 +32,7 @@
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
-    "editor.foreground": "#555777",
+    "editor.foreground": "#595b7b",
     "editor.hoverHighlightBackground": "#1166ff22",
     "editor.inactiveSelectionBackground": "#1166ff33",
     "editor.lineHighlightBackground": "#0d0d19",
@@ -89,7 +89,7 @@
     "extensionButton.prominentForeground": "#f3f3ff",
     "extensionButton.prominentHoverBackground": "#50c7ff",
     "focusBorder": "#122d42",
-    "foreground": "#555777",
+    "foreground": "#595b7b",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -126,8 +126,8 @@
     "panel.background": "#0a0a15",
     "panel.border": "#1166ff",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#555777",
-    "panelTitle.inactiveForeground": "#464863",
+    "panelTitle.activeForeground": "#595b7b",
+    "panelTitle.inactiveForeground": "#464864",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0a0a15",
     "peekViewEditor.matchHighlightBackground": "#1166ff33",
@@ -150,13 +150,13 @@
     "settings.modifiedItemForeground": "#1166ff",
     "sideBar.background": "#0a0a15",
     "sideBar.border": "#05040f",
-    "sideBar.foreground": "#555777",
+    "sideBar.foreground": "#595b7b",
     "sideBarSectionHeader.background": "#0a0a15",
     "sideBarSectionHeader.foreground": "#dde",
-    "sideBarTitle.foreground": "#555777",
+    "sideBarTitle.foreground": "#595b7b",
     "statusBar.background": "#0a0a15",
     "statusBar.border": "#05040f",
-    "statusBar.foreground": "#555777",
+    "statusBar.foreground": "#595b7b",
     "tab.activeBackground": "#0a0a15",
     "tab.activeBorder": "#1166ff",
     "tab.activeForeground": "#f3f3ff",
@@ -215,7 +215,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#555777"
+        "foreground": "#595b7b"
       }
     },
     {
@@ -226,7 +226,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#464863",
+        "foreground": "#464864",
         "fontStyle": "italic"
       }
     },
@@ -238,7 +238,7 @@
         "meta.indexer.declaration variable.parameter"
       ],
       "settings": {
-        "foreground": "#555777",
+        "foreground": "#595b7b",
         "fontStyle": "italic"
       }
     },
@@ -246,7 +246,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#464863"
+        "foreground": "#464864"
       }
     },
     {
@@ -259,6 +259,8 @@
         "support.function.calc.css",
         "support.function.transform.scss",
         "support.function.calc.scss",
+        "entity.name.tag support.class.component",
+        "meta.tag punctuation.definition.tag",
         "meta.function-call"
       ],
       "settings": {
