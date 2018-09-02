@@ -32,7 +32,7 @@
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
-    "editor.foreground": "#595b7b",
+    "editor.foreground": "#5a5c7d",
     "editor.hoverHighlightBackground": "#1166ff22",
     "editor.inactiveSelectionBackground": "#1166ff33",
     "editor.lineHighlightBackground": "#0d0d19",
@@ -89,7 +89,7 @@
     "extensionButton.prominentForeground": "#f3f3ff",
     "extensionButton.prominentHoverBackground": "#50c7ff",
     "focusBorder": "#122d42",
-    "foreground": "#595b7b",
+    "foreground": "#5a5c7d",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -126,8 +126,8 @@
     "panel.background": "#0a0a15",
     "panel.border": "#1166ff",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#595b7b",
-    "panelTitle.inactiveForeground": "#464864",
+    "panelTitle.activeForeground": "#5a5c7d",
+    "panelTitle.inactiveForeground": "#454763",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0a0a15",
     "peekViewEditor.matchHighlightBackground": "#1166ff33",
@@ -150,13 +150,13 @@
     "settings.modifiedItemForeground": "#1166ff",
     "sideBar.background": "#0a0a15",
     "sideBar.border": "#05040f",
-    "sideBar.foreground": "#595b7b",
+    "sideBar.foreground": "#5a5c7d",
     "sideBarSectionHeader.background": "#0a0a15",
     "sideBarSectionHeader.foreground": "#dde",
-    "sideBarTitle.foreground": "#595b7b",
+    "sideBarTitle.foreground": "#5a5c7d",
     "statusBar.background": "#0a0a15",
     "statusBar.border": "#05040f",
-    "statusBar.foreground": "#595b7b",
+    "statusBar.foreground": "#5a5c7d",
     "tab.activeBackground": "#0a0a15",
     "tab.activeBorder": "#1166ff",
     "tab.activeForeground": "#f3f3ff",
@@ -215,7 +215,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#595b7b"
+        "foreground": "#5a5c7d"
       }
     },
     {
@@ -223,22 +223,19 @@
       "scope": [
         "variable.object.property",
         "support.type.property-name",
+        "meta.tag.attributes entity.other.attribute-name",
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#464864",
+        "foreground": "#454763",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Text Cursive",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template",
-        "meta.indexer.declaration variable.parameter"
-      ],
+      "scope": ["meta.indexer.declaration variable.parameter"],
       "settings": {
-        "foreground": "#595b7b",
+        "foreground": "#5a5c7d",
         "fontStyle": "italic"
       }
     },
@@ -246,7 +243,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#464864"
+        "foreground": "#454763"
       }
     },
     {
@@ -260,7 +257,6 @@
         "support.function.transform.scss",
         "support.function.calc.scss",
         "entity.name.tag support.class.component",
-        "meta.tag punctuation.definition.tag",
         "meta.function-call"
       ],
       "settings": {
@@ -353,6 +349,7 @@
       "scope": [
         "meta.brace.round",
         "meta.brace.square",
+        "meta.tag punctuation.definition.tag",
         "punctuation.definition",
         "punctuation.section.property-list",
         "punctuation.section.function",
@@ -382,6 +379,7 @@
       "scope": [
         "entity.name.function.tagged-template",
         "entity.name.section.group-title",
+        "entity.name.section.markdown",
         "entity.name.type.alias",
         "entity.name.type.class",
         "entity.name.type.enum",
@@ -395,6 +393,7 @@
         "variable.argument.scss",
         "variable.scss",
         "variable.parameter.postcss",
+        "new.expr entity.name.type",
         "variable.postcss"
       ],
       "settings": {
@@ -407,6 +406,8 @@
       "scope": [
         "string",
         "meta.scope.subject.git-commit",
+        "string.template",
+        "punctuation.definition.string.template",
         "string.quoted.double"
       ],
       "settings": {
