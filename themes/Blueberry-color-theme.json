@@ -1,12 +1,3 @@
-// base grey: hsl(230, 19, 45);
-// background: #0a0a15
-// drop-background: #0c0e18
-// drop-highlight-background: #0c0e18
-// drop-focus-background: #0c0e18
-// drop-selected-background: #0c0e18
-// text: #575e7f
-// blue: #0f5fff
-// white: #f0f5ff
 {
   "name": "Blueberry",
   "type": "dark",
@@ -16,7 +7,7 @@
     "activityBar.border": "#06070f",
     "activityBar.dropBackground": "#1166ff",
     // activity bar
-    "activityBar.foreground": "#242433",
+    "activityBar.foreground": "#35354b",
     "activityBarBadge.background": "#1166ff",
     "activityBarBadge.foreground": "#f1f5ff",
     "badge.background": "#1166ff",
@@ -27,7 +18,7 @@
     "breadcrumbPicker.background": "#0e0e1b",
     "button.background": "#1166ff",
     "button.foreground": "#f1f5ff",
-    "button.hoverBackground": "#52c5ff",
+    "button.hoverBackground": "#1ab2ff",
     "contrastActiveBorder": "#0a0a15",
     "contrastBorder": "#0a0a15",
     "debugExceptionWidget.background": "#0a0a15",
@@ -106,7 +97,7 @@
     "errorForeground": "#EF5350",
     "extensionButton.prominentBackground": "#1166ff",
     "extensionButton.prominentForeground": "#f1f5ff",
-    "extensionButton.prominentHoverBackground": "#52c5ff",
+    "extensionButton.prominentHoverBackground": "#1ab2ff",
     // that border!
     "focusBorder": "#0f0f1f",
     "foreground": "#5a5f81",
@@ -239,7 +230,6 @@
       ],
       "settings": {
         "foreground": "#5a5f81"
-        // "foreground": "#_5a5c7a"
       }
     },
     {
@@ -321,15 +311,14 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#52c5ff"
-        // "foreground": "#_50c7ff"
+        "foreground": "#1ab2ff"
       }
     },
     {
       "name": "Entities",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#52c5ff"
+        "foreground": "#1ab2ff"
       }
     },
     {
@@ -341,7 +330,7 @@
         "meta.object-literal.key meta.array.literal variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#52c5ff"
+        "foreground": "#1ab2ff"
       }
     },
     {
@@ -349,7 +338,6 @@
       "scope": ["comment"],
       "settings": {
         "foreground": "#2f3142"
-        // "foreground": "#343652"
       }
     },
     {
