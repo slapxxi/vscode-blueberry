@@ -33,7 +33,7 @@
     "dropdown.foreground": "#f1f5ff",
     // editor
     "editor.background": "#0a0a15",
-    "editor.foreground": "#5a5f81",
+    "editor.foreground": "#5b6286",
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
@@ -85,7 +85,7 @@
     // suggest
     "editorSuggestWidget.background": "#0e0e1b",
     "editorSuggestWidget.border": "#111122",
-    "editorSuggestWidget.foreground": "#5a5f81",
+    "editorSuggestWidget.foreground": "#5b6286",
     "editorSuggestWidget.highlightForeground": "#1166ff",
     "editorSuggestWidget.selectedBackground": "#17172c",
     "editorWarning.border": null,
@@ -100,7 +100,7 @@
     "extensionButton.prominentHoverBackground": "#1ab2ff",
     // that border!
     "focusBorder": "#0f0f1f",
-    "foreground": "#5a5f81",
+    "foreground": "#5b6286",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -138,8 +138,8 @@
     "panel.background": "#0a0a15",
     "panel.border": "#0a0a15",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#5a5f81",
-    "panelTitle.inactiveForeground": "#3f415f",
+    "panelTitle.activeForeground": "#5b6286",
+    "panelTitle.inactiveForeground": "#414662",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0a0a15",
     "peekViewEditor.matchHighlightBackground": "#0f5fff33",
@@ -161,14 +161,14 @@
     // sidebar
     "sideBar.background": "#0a0a15",
     "sideBar.border": "#06070f",
-    "sideBar.foreground": "#5a5f81",
+    "sideBar.foreground": "#5b6286",
     "sideBarSectionHeader.background": "#0a0a15",
     "sideBarSectionHeader.foreground": "#f3f3ff",
-    "sideBarTitle.foreground": "#5a5f81",
+    "sideBarTitle.foreground": "#5b6286",
     // statusbar
     "statusBar.background": "#0a0a15",
     "statusBar.border": "#06070f",
-    "statusBar.foreground": "#5a5f81",
+    "statusBar.foreground": "#5b6286",
     "tab.activeBackground": "#0a0a15",
     "tab.activeBorder": "#1166ff",
     "tab.activeForeground": "#f1f5ff",
@@ -229,7 +229,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#5a5f81"
+        "foreground": "#5b6286"
       }
     },
     {
@@ -241,7 +241,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#3f415f",
+        "foreground": "#414662",
         "fontStyle": "italic"
       }
     },
@@ -249,7 +249,7 @@
       "name": "Text Cursive",
       "scope": ["meta.indexer.declaration variable.parameter"],
       "settings": {
-        "foreground": "#5a5f81",
+        "foreground": "#5b6286",
         "fontStyle": "italic"
       }
     },
@@ -257,7 +257,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#3f415f"
+        "foreground": "#414662"
       }
     },
     {
