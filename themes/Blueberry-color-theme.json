@@ -23,7 +23,7 @@
     "contrastBorder": "#0a0a15",
     "debugExceptionWidget.background": "#0a0a15",
     "debugExceptionWidget.border": "#1166ff",
-    "debugToolBar.background": "#ef5350",
+    "debugToolBar.background": "#0a0a15",
     "diffEditor.insertedTextBackground": "#99b76d23",
     "diffEditor.insertedTextBorder": "#addb6733",
     "diffEditor.removedTextBackground": "#ef535033",
@@ -53,7 +53,7 @@
     "editorCodeLens.foreground": "#242533",
     "editorCursor.foreground": "#1166ff",
     "editorError.border": null,
-    "editorError.foreground": "#EF5350",
+    "editorError.foreground": "#ff3c1a",
     "editorGroup.border": "#0a0a15",
     "editorGroup.dropBackground": "#0f5fff33",
     "editorGroup.emptyBackground": "#04050f",
@@ -62,7 +62,7 @@
     "editorGroupHeader.tabsBorder": "#0a0a15",
     "editorGutter.addedBackground": "#212131",
     "editorGutter.background": "#0a0a15",
-    "editorGutter.deletedBackground": "#EF5350",
+    "editorGutter.deletedBackground": "#ff3c1a",
     "editorGutter.modifiedBackground": "#0f5fff99",
     // hover widget!
     "editorHoverWidget.background": "#0e0e1b",
@@ -75,7 +75,7 @@
     "editorLineNumber.foreground": "#242433",
     "editorLink.activeForeground": "#f1f5ff",
     "editorMarkerNavigation.background": "#31364a",
-    "editorMarkerNavigationError.background": "#EF5350",
+    "editorMarkerNavigationError.background": "#ff3c1a",
     "editorMarkerNavigationWarning.background": "#FFCA28",
     "editorOverviewRuler.addedForeground": "#0a0a15",
     "editorOverviewRuler.commonContentForeground": "#7e57c2",
@@ -94,7 +94,7 @@
     // !!!
     "editorWidget.background": "#151528",
     "editorWidget.border": "#17172c",
-    "errorForeground": "#EF5350",
+    "errorForeground": "#ff3c1a",
     "extensionButton.prominentBackground": "#1166ff",
     "extensionButton.prominentForeground": "#f1f5ff",
     "extensionButton.prominentHoverBackground": "#1ab2ff",
@@ -168,7 +168,12 @@
     // statusbar
     "statusBar.background": "#0a0a15",
     "statusBar.border": "#06070f",
-    "statusBar.foreground": "#5b6286",
+    "statusBar.foreground": "#292a38",
+    "statusBarItem.hoverBackground": "#1166ff",
+    "statusBar.debuggingBackground": "#1166ff",
+    "statusBar.debuggingForeground": "#fff",
+    "statusBar.noFolderBackground": "#f5cc23",
+    // tabs
     "tab.activeBackground": "#0a0a15",
     "tab.activeBorder": "#1166ff",
     "tab.activeForeground": "#f1f5ff",
@@ -178,6 +183,7 @@
     "tab.unfocusedActiveBorder": "#262A39",
     "tab.unfocusedActiveForeground": "#1166ff",
     "tab.unfocusedInactiveForeground": "#1166ff",
+    // terminal
     "terminal.ansiBlack": "#0a0a15",
     "terminal.ansiBlue": "#1166ff",
     "terminal.ansiBrightBlack": "#575656",
@@ -246,6 +252,13 @@
       }
     },
     {
+      "name": "Meta",
+      "scope": ["meta.attribute.rust", "meta.type_params.rust"],
+      "settings": {
+        "foreground": "#414662"
+      }
+    },
+    {
       "name": "Text Cursive",
       "scope": ["meta.indexer.declaration variable.parameter"],
       "settings": {
@@ -280,6 +293,8 @@
     {
       "name": "Keyword",
       "scope": [
+        "entity.name.function.rust",
+        "support.function.std",
         "entity.name.tag.css",
         "entity.name.tag.scss",
         "entity.other.attribute-name.class",
@@ -298,6 +313,7 @@
     {
       "name": "Constant",
       "scope": [
+        "support.constant.core.rust",
         "constant",
         "support.type",
         "support.constant.color",
@@ -398,6 +414,8 @@
     {
       "name": "Name",
       "scope": [
+        "entity.name.function.macro.rust",
+        "storage.class.std.rust",
         "entity.name.function.tagged-template",
         "entity.name.section.group-title",
         "entity.name.section.markdown",
