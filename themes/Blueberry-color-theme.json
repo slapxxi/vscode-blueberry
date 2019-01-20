@@ -229,6 +229,7 @@
     {
       "name": "Text",
       "scope": [
+        "meta.paragraph.markdown",
         "variable.parameter",
         "entity.name.function.tagged-template variable.other.property",
         "entity.other.attribute-name",
@@ -244,7 +245,8 @@
         "variable.object.property",
         "support.type.property-name",
         "meta.tag.attributes entity.other.attribute-name",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "meta.type_params.rust"
       ],
       "settings": {
         "foreground": "#414662",
@@ -253,14 +255,14 @@
     },
     {
       "name": "Meta",
-      "scope": ["meta.attribute.rust", "meta.type_params.rust"],
+      "scope": ["meta.attribute.rust"],
       "settings": {
-        "foreground": "#414662"
+        "foreground": "#2f3142"
       }
     },
     {
       "name": "Text Cursive",
-      "scope": ["meta.indexer.declaration variable.parameter"],
+      "scope": ["meta.indexer.declaration variable.parameter", "markup.bold.markdown"],
       "settings": {
         "foreground": "#5b6286",
         "fontStyle": "italic"
@@ -303,6 +305,7 @@
         "entity.other.attribute-name.pseudo-element",
         "keyword",
         "punctuation.accessor",
+        "punctuation.symbol.match-branch",
         "storage.modifier",
         "storage.type.function"
       ],
@@ -318,11 +321,13 @@
         "support.type",
         "support.constant.color",
         "support.class.console",
+        "string.other.link",
         // treat as a constant
         "keyword.other.unit",
         "support.type.property-name.json",
         "support.variable.object.node",
         "variable.language.this",
+        "variable.language.self",
         "string.regexp keyword.control",
         "variable.other.enummember"
       ],
@@ -384,6 +389,7 @@
     {
       "name": "Punctuation",
       "scope": [
+        "punctuation.symbol",
         "meta.brace.round",
         "meta.brace.square",
         "meta.tag punctuation.definition.tag",
@@ -414,7 +420,13 @@
     {
       "name": "Name",
       "scope": [
+        "meta.function entity.name.function.rust",
+        "support.other.macro",
+        "entity.name.module",
+        "entity.name.function.definition",
+        "support.module.builtin.rust",
         "entity.name.function.macro.rust",
+        "meta.implementation.rust",
         "storage.class.std.rust",
         "entity.name.function.tagged-template",
         "entity.name.section.group-title",
@@ -422,6 +434,10 @@
         "entity.name.type.alias",
         "entity.name.type.class",
         "entity.name.type.enum",
+        "entity.name.type.trait",
+        "entity.name.type.structure",
+        "entity.name.type.enumeration",
+        "entity.name.type.implementation",
         "entity.name.type.interface",
         "entity.name.type.module",
         "meta.definition.function entity.name.function",
