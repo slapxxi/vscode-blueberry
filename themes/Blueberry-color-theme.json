@@ -246,6 +246,7 @@
         "support.type.property-name",
         "meta.tag.attributes entity.other.attribute-name",
         "meta.object-literal.key",
+        "variable.graphql",
         "meta.type_params.rust"
       ],
       "settings": {
@@ -326,9 +327,12 @@
         "keyword.other.unit",
         "support.type.property-name.json",
         "support.variable.object.node",
+        "support.variable.object.process",
+        "support.function.builtin.shell",
         "variable.language.this",
         "variable.language.self",
         "string.regexp keyword.control",
+        "variable.other.constant",
         "variable.other.enummember"
       ],
       "settings": {
@@ -398,7 +402,12 @@
         "punctuation.section.property-list",
         "punctuation.section.function",
         "punctuation.separator",
-        "punctuation.terminator"
+        "punctuation.terminator",
+        // GraphQL
+        "punctuation.graphql",
+        "punctuation.operation.graphql",
+        "punctuation.colon.graphql",
+        "meta.brace.curly.graphql"
       ],
       "settings": {
         "foreground": "#2e3142"
@@ -445,7 +454,11 @@
         "meta.definition.function entity.name.function",
         "meta.definition.method entity.name.function",
         "meta.definition.property entity.name.function",
+        "meta.definition.variable variable.other.readwrite",
+        "meta.definition.variable entity.name.function",
+        "meta.import variable.other.readwrite",
         "support.constant.property-value",
+        "support.class",
         "variable.argument.css",
         "variable.argument.scss",
         "variable.scss",
