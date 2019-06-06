@@ -173,6 +173,7 @@
     "statusBar.debuggingBackground": "#1166ff",
     "statusBar.debuggingForeground": "#fff",
     "statusBar.noFolderBackground": "#f5cc23",
+    "statusBarItem.remoteBackground": "#0a0a15",
     // tabs
     "tab.activeBackground": "#0a0a15",
     "tab.activeBorder": "#1166ff",
@@ -287,6 +288,7 @@
         "support.function.transform.scss",
         "support.function.calc.scss",
         "entity.name.tag support.class.component",
+        "meta.function-call entity.name.function",
         "meta.function-call"
       ],
       "settings": {
@@ -333,6 +335,7 @@
         "variable.language.self",
         "string.regexp keyword.control",
         "variable.other.constant",
+        "variable.other.normal.shell",
         "variable.other.enummember"
       ],
       "settings": {
@@ -439,6 +442,7 @@
         "entity.name.function.macro.rust",
         "meta.implementation.rust",
         "storage.class.std.rust",
+        "entity.name.function",
         "entity.name.function.tagged-template",
         "entity.name.section.group-title",
         "entity.name.section.markdown",
@@ -456,6 +460,7 @@
         "meta.definition.property entity.name.function",
         "meta.definition.variable variable.other.readwrite",
         "meta.definition.variable entity.name.function",
+        "meta.definition.variable variable.other.constant",
         "meta.import variable.other.readwrite",
         "support.constant.property-value",
         "support.class",
