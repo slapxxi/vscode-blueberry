@@ -248,6 +248,7 @@
         "meta.tag.attributes entity.other.attribute-name",
         "meta.object-literal.key",
         "variable.graphql",
+        "support.class.console",
         "meta.type_params.rust"
       ],
       "settings": {
@@ -323,7 +324,6 @@
         "constant",
         "support.type",
         "support.constant.color",
-        "support.class.console",
         "string.other.link",
         // treat as a constant
         "keyword.other.unit",
@@ -359,13 +359,6 @@
       ],
       "settings": {
         "foreground": "#1ab2ff"
-      }
-    },
-    {
-      "name": "Comment",
-      "scope": ["comment"],
-      "settings": {
-        "foreground": "#2f3142"
       }
     },
     {
@@ -494,6 +487,7 @@
     {
       "name": "Regular Expession",
       "scope": [
+        "keyword.other.debugger",
         "string.regexp",
         "string.regexp keyword.operator",
         "string.regexp punctuation.definition.string"
@@ -521,6 +515,17 @@
       "scope": ["markup.changed.git-commit", "markup.inserted.git-commit"],
       "settings": {
         "foreground": "#f5cc23"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment meta.paragraph.markdown",
+        "comment markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#2f3142"
       }
     },
     {
