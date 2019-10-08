@@ -290,7 +290,8 @@
         "support.function.calc.scss",
         "entity.name.tag support.class.component",
         "meta.function-call entity.name.function",
-        "meta.function-call"
+        "meta.function-call",
+        "support.constant.math"
       ],
       "settings": {
         "foreground": "#1166ff"
@@ -456,6 +457,7 @@
         "meta.definition.variable variable.other.constant",
         "meta.import variable.other.readwrite",
         "support.constant.property-value",
+        "support.constant.property",
         "support.class",
         "variable.argument.css",
         "variable.argument.scss",
