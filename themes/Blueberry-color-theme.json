@@ -43,7 +43,7 @@
     "editor.hoverHighlightBackground": "#0f5fff22",
     "editor.inactiveSelectionBackground": "#0f5fff33",
     // line highlight
-    "editor.lineHighlightBackground": "#0f0f1c",
+    "editor.lineHighlightBackground": "#12121e",
     "editor.lineHighlightBorder": null,
     "editor.rangeHighlightBackground": "#0f5fff33",
     "editor.selectionBackground": "#0f5fff33",
@@ -407,6 +407,8 @@
         "punctuation.section.function",
         "punctuation.separator",
         "punctuation.terminator",
+        // GLSL
+        "punctuation.section",
         // GraphQL
         "punctuation.graphql",
         "punctuation.operation.graphql",
@@ -414,7 +416,7 @@
         "meta.brace.curly.graphql"
       ],
       "settings": {
-        "foreground": "#2e3142"
+        "foreground": "#2f3243"
       }
     },
     {
