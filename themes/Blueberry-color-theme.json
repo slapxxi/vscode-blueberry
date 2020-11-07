@@ -15,6 +15,8 @@
     "activityBarBadge.foreground": "#f5f7ff",
     "badge.background": "#1166ff",
     "badge.foreground": "#f5f7ff",
+    // pinned tab border
+    "tab.lastPinnedBorder": "#0b0b16",
     // breadcrumbs
     "breadcrumb.focusForeground": "#f5f7ff",
     "breadcrumb.foreground": "#242533",
