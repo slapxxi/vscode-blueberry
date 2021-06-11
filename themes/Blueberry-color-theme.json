@@ -292,6 +292,7 @@
         "support.function.transform.scss",
         "support.function.calc.scss",
         "entity.name.tag support.class.component",
+        "entity.name.function.tagged-template",
         "meta.function-call entity.name.function",
         "meta.function-call",
         "support.constant.math"
@@ -448,7 +449,7 @@
         "meta.implementation.rust",
         "storage.class.std.rust",
         "entity.name.function",
-        "entity.name.function.tagged-template",
+        // "entity.name.function.tagged-template",
         "entity.name.section.group-title",
         "entity.name.section.markdown",
         "entity.name.type.alias",
