@@ -38,7 +38,7 @@
     "dropdown.foreground": "#f5f7ff",
     // editor
     "editor.background": "#0b0b16",
-    "editor.foreground": "#5f668a",
+    "editor.foreground": "#606a8a",
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
@@ -90,7 +90,7 @@
     // suggest
     "editorSuggestWidget.background": "#0f0f1c",
     "editorSuggestWidget.border": "#111122",
-    "editorSuggestWidget.foreground": "#5f668a",
+    "editorSuggestWidget.foreground": "#606a8a",
     "editorSuggestWidget.highlightForeground": "#1166ff",
     "editorSuggestWidget.selectedBackground": "#17172c",
     "editorWarning.border": null,
@@ -105,7 +105,7 @@
     "extensionButton.prominentHoverBackground": "#1ab2ff",
     // that border!
     "focusBorder": "#0f0f1f",
-    "foreground": "#5f668a",
+    "foreground": "#606a8a",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -143,7 +143,7 @@
     "panel.background": "#0b0b16",
     "panel.border": "#0b0b16",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#5f668a",
+    "panelTitle.activeForeground": "#606a8a",
     "panelTitle.inactiveForeground": "#444965",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0b0b16",
@@ -166,10 +166,10 @@
     // sidebar
     "sideBar.background": "#0b0b16",
     "sideBar.border": "#06070f",
-    "sideBar.foreground": "#5f668a",
+    "sideBar.foreground": "#606a8a",
     "sideBarSectionHeader.background": "#0b0b16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
-    "sideBarTitle.foreground": "#5f668a",
+    "sideBarTitle.foreground": "#606a8a",
     // statusbar
     "statusBar.background": "#0b0b16",
     "statusBar.border": "#06070f",
@@ -242,7 +242,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#5f668a"
+        "foreground": "#606a8a"
       }
     },
     {
@@ -271,7 +271,7 @@
       "name": "Text Cursive",
       "scope": ["meta.indexer.declaration variable.parameter", "markup.bold.markdown"],
       "settings": {
-        "foreground": "#5f668a"
+        "foreground": "#606a8a"
       }
     },
     {
@@ -357,7 +357,7 @@
       "name": "Entities",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#5f668a"
+        "foreground": "#606a8a"
       }
     },
     {
