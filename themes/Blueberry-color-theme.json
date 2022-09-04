@@ -2,11 +2,12 @@
   "name": "Blueberry",
   "type": "dark",
   "colors": {
+    "editor.findMatchBorder": "#ff0000",
     // unused code
     "editorUnnecessaryCode.opacity": "#00000090",
     "activityBar.background": "#0d0d16",
     // "activityBar.background": "#_0d0d16",
-    "activityBar.border": "#06070f",
+    "activityBar.border": "#090912",
     "activityBar.dropBackground": "#1166ff",
     // activity bar
     "activityBar.foreground": "#45465a",
@@ -62,8 +63,8 @@
     "editorGroup.border": "#0d0d16",
     "editorGroup.dropBackground": "#0f5fff33",
     "editorGroup.emptyBackground": "#04050f",
-    "editorGroupHeader.noTabsBackground": "#06070f",
-    "editorGroupHeader.tabsBackground": "#06070f",
+    "editorGroupHeader.noTabsBackground": "#090912",
+    "editorGroupHeader.tabsBackground": "#090912",
     "editorGroupHeader.tabsBorder": "#0d0d16",
     "editorGutter.addedBackground": "#212131",
     "editorGutter.background": "#0d0d16",
@@ -144,7 +145,7 @@
     "panel.border": "#0d0d16",
     "panelTitle.activeBorder": "#1166ff",
     "panelTitle.activeForeground": "#94a0c3",
-    "panelTitle.inactiveForeground": "#4c516b",
+    "panelTitle.inactiveForeground": "#505774",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0d0d16",
     "peekViewEditor.matchHighlightBackground": "#0f5fff33",
@@ -165,14 +166,14 @@
     "selection.background": "#4373c2",
     // sidebar
     "sideBar.background": "#0d0d16",
-    "sideBar.border": "#06070f",
+    "sideBar.border": "#090912",
     "sideBar.foreground": "#94a0c3",
     "sideBarSectionHeader.background": "#0d0d16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
     "sideBarTitle.foreground": "#94a0c3",
     // statusbar
     "statusBar.background": "#0d0d16",
-    "statusBar.border": "#06070f",
+    "statusBar.border": "#090912",
     "statusBar.foreground": "#343548",
     "statusBarItem.hoverBackground": "#1166ff",
     "statusBar.debuggingBackground": "#1166ff",
@@ -185,7 +186,7 @@
     "tab.activeForeground": "#f5f7ff",
     "tab.border": "#0d0d16",
     "tab.inactiveBackground": "#ffffff00",
-    "tab.inactiveForeground": "#303040",
+    "tab.inactiveForeground": "#303344",
     "tab.unfocusedActiveBorder": "#262A39",
     "tab.unfocusedActiveForeground": "#1166ff",
     "tab.unfocusedInactiveForeground": "#1166ff",
@@ -258,7 +259,7 @@
         "meta.type_params.rust"
       ],
       "settings": {
-        "foreground": "#4c516b"
+        "foreground": "#505774"
       }
     },
     {
@@ -279,7 +280,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#4c516b"
+        "foreground": "#505774"
       }
     },
     {
@@ -536,7 +537,7 @@
       "scope": ["comment", "comment meta.paragraph.markdown", "comment markup.bold.markdown"],
       "settings": {
         // "foreground": "#2f3142"
-        "foreground": "#313345"
+        "foreground": "#323546"
       }
     },
     {
