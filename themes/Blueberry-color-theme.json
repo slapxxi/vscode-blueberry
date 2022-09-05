@@ -145,7 +145,7 @@
     "panel.border": "#0d0d16",
     "panelTitle.activeBorder": "#1166ff",
     "panelTitle.activeForeground": "#94a0c3",
-    "panelTitle.inactiveForeground": "#505774",
+    "panelTitle.inactiveForeground": "#515876",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0d0d16",
     "peekViewEditor.matchHighlightBackground": "#0f5fff33",
@@ -259,7 +259,7 @@
         "meta.type_params.rust"
       ],
       "settings": {
-        "foreground": "#505774"
+        "foreground": "#515876"
       }
     },
     {
@@ -280,7 +280,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#505774"
+        "foreground": "#515876"
       }
     },
     {
