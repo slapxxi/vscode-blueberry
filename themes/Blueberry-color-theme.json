@@ -38,7 +38,7 @@
     "dropdown.foreground": "#f5f7ff",
     // editor
     "editor.background": "#0d0d16",
-    "editor.foreground": "#94a0c3",
+    "editor.foreground": "#95a1c4",
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
@@ -77,7 +77,7 @@
     "editorIndentGuide.background": "#191925",
     // line number
     "editorLineNumber.activeForeground": "#1166ff",
-    "editorLineNumber.foreground": "#303344",
+    "editorLineNumber.foreground": "#303345",
     "editorLink.activeForeground": "#f5f7ff",
     "editorMarkerNavigation.background": "#31364a",
     "editorMarkerNavigationError.background": "#ff3c1a",
@@ -90,7 +90,7 @@
     // suggest
     "editorSuggestWidget.background": "#0f0f1c",
     "editorSuggestWidget.border": "#111122",
-    "editorSuggestWidget.foreground": "#94a0c3",
+    "editorSuggestWidget.foreground": "#95a1c4",
     "editorSuggestWidget.highlightForeground": "#1166ff",
     "editorSuggestWidget.selectedBackground": "#17172c",
     "editorWarning.border": null,
@@ -105,7 +105,7 @@
     "extensionButton.prominentHoverBackground": "#1ab2ff",
     // that border!
     "focusBorder": "#0f0f1f",
-    "foreground": "#94a0c3",
+    "foreground": "#95a1c4",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -143,8 +143,8 @@
     "panel.background": "#0d0d16",
     "panel.border": "#0d0d16",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#94a0c3",
-    "panelTitle.inactiveForeground": "#515876",
+    "panelTitle.activeForeground": "#95a1c4",
+    "panelTitle.inactiveForeground": "#505776",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0d0d16",
     "peekViewEditor.matchHighlightBackground": "#0f5fff33",
@@ -166,10 +166,10 @@
     // sidebar
     "sideBar.background": "#0d0d16",
     "sideBar.border": "#0d0d16",
-    "sideBar.foreground": "#94a0c3",
+    "sideBar.foreground": "#95a1c4",
     "sideBarSectionHeader.background": "#0d0d16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
-    "sideBarTitle.foreground": "#94a0c3",
+    "sideBarTitle.foreground": "#95a1c4",
     // statusbar
     "statusBar.background": "#0d0d16",
     "statusBar.border": "#0d0d16",
@@ -185,7 +185,7 @@
     "tab.activeForeground": "#f5f7ff",
     "tab.border": "#0d0d16",
     "tab.inactiveBackground": "#ffffff00",
-    "tab.inactiveForeground": "#303344",
+    "tab.inactiveForeground": "#303345",
     "tab.unfocusedActiveBorder": "#262A39",
     "tab.unfocusedActiveForeground": "#1166ff",
     "tab.unfocusedInactiveForeground": "#1166ff",
@@ -243,7 +243,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#94a0c3"
+        "foreground": "#95a1c4"
       }
     },
     {
@@ -259,7 +259,7 @@
         "meta.type_params.rust"
       ],
       "settings": {
-        "foreground": "#515876"
+        "foreground": "#505776"
       }
     },
     {
@@ -273,14 +273,14 @@
       "name": "Text Cursive",
       "scope": ["meta.indexer.declaration variable.parameter", "markup.bold.markdown"],
       "settings": {
-        "foreground": "#94a0c3"
+        "foreground": "#95a1c4"
       }
     },
     {
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#515876"
+        "foreground": "#505776"
       }
     },
     {
@@ -359,7 +359,7 @@
       "name": "Entities",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#94a0c3"
+        "foreground": "#95a1c4"
       }
     },
     {
@@ -421,7 +421,7 @@
         "meta.brace.curly.graphql"
       ],
       "settings": {
-        "foreground": "#303344"
+        "foreground": "#303345"
       }
     },
     {
@@ -537,7 +537,7 @@
       "scope": ["comment", "comment meta.paragraph.markdown", "comment markup.bold.markdown"],
       "settings": {
         // "foreground": "#2f3142"
-        "foreground": "#323546"
+        "foreground": "#323548"
       }
     },
     {
