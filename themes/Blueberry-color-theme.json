@@ -256,6 +256,7 @@
         "meta.object-literal.key",
         "variable.graphql",
         "support.class.console",
+        "entity.other.attribute-name",
         "meta.type_params.rust"
       ],
       "settings": {
