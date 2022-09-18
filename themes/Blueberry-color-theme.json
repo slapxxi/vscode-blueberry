@@ -259,7 +259,7 @@
       "name": "Text",
       "scope": [
         "meta.paragraph.markdown",
-        "variable.parameter",
+        // "variable.parameter",
         "entity.name.function.tagged-template variable.other.property",
         "entity.other.attribute-name",
         "variable.other.object.property"
@@ -477,7 +477,6 @@
         "meta.implementation.rust",
         "storage.class.std.rust",
         "entity.name.function",
-        // "entity.name.function.tagged-template",
         "entity.name.section.group-title",
         "entity.name.section.markdown",
         "entity.name.type.alias",
@@ -505,7 +504,8 @@
         "variable.parameter.postcss",
         "new.expr entity.name.type",
         "entity.other.inherited-class",
-        "variable.postcss"
+        "variable.postcss",
+        "variable.parameter"
       ],
       "settings": {
         "foreground": "#f5f7ff",
