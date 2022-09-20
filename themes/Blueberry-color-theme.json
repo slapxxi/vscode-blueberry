@@ -53,8 +53,8 @@
     /* LINE HIGHLIGHT */
     "editor.lineHighlightBackground": "#101019",
     "editor.lineHighlightBorder": null,
-    "editor.rangeHighlightBackground": "#0f5fff33",
-    "editor.selectionHighlightBackground": "#0f5fff33",
+    "editor.rangeHighlightBackground": "#0f5fff3f",
+    "editor.selectionHighlightBackground": "#0f5fff1f",
 
     /* WORD HIGHLIGHT */
     "editor.wordHighlightBackground": "#0f0f18",
