@@ -505,7 +505,8 @@
         "new.expr entity.name.type",
         "entity.other.inherited-class",
         "variable.postcss",
-        "variable.parameter"
+        "variable.parameter",
+        "meta.class meta.definition.property variable.object.property"
       ],
       "settings": {
         "foreground": "#f5f7ff",
