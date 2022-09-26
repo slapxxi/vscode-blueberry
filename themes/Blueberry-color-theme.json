@@ -44,7 +44,7 @@
 
     /* EDITOR */
     "editor.background": "#0d0d16",
-    "editor.foreground": "#97a3c6",
+    "editor.foreground": "#96a2c6",
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
@@ -106,7 +106,7 @@
     /* SUGGEST */
     "editorSuggestWidget.background": "#0f0f1c",
     "editorSuggestWidget.border": "#111122",
-    "editorSuggestWidget.foreground": "#97a3c6",
+    "editorSuggestWidget.foreground": "#96a2c6",
     "editorSuggestWidget.highlightForeground": "#1166ff",
     "editorSuggestWidget.selectedBackground": "#17172c",
     "editorWarning.border": null,
@@ -123,7 +123,7 @@
 
     /* THAT BORDER! */
     "focusBorder": "#0f0f1f",
-    "foreground": "#97a3c6",
+    "foreground": "#96a2c6",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -162,7 +162,7 @@
     "panel.background": "#0d0d16",
     "panel.border": "#0d0d16",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#97a3c6",
+    "panelTitle.activeForeground": "#96a2c6",
     "panelTitle.inactiveForeground": "#525979",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0d0d16",
@@ -186,10 +186,10 @@
     /* SIDEBAR */
     "sideBar.background": "#0d0d16",
     "sideBar.border": "#0d0d16",
-    "sideBar.foreground": "#97a3c6",
+    "sideBar.foreground": "#96a2c6",
     "sideBarSectionHeader.background": "#0d0d16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
-    "sideBarTitle.foreground": "#97a3c6",
+    "sideBarTitle.foreground": "#96a2c6",
 
     /* STATUSBAR */
     "statusBar.background": "#0d0d16",
@@ -265,7 +265,7 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#97a3c6"
+        "foreground": "#96a2c6"
       }
     },
     {
@@ -298,7 +298,7 @@
       "name": "Text Cursive",
       "scope": ["meta.indexer.declaration variable.parameter", "markup.bold.markdown"],
       "settings": {
-        "foreground": "#97a3c6"
+        "foreground": "#96a2c6"
       }
     },
     {
@@ -384,7 +384,7 @@
       "name": "Entities",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#97a3c6"
+        "foreground": "#96a2c6"
       }
     },
     {
@@ -461,7 +461,7 @@
       "scope": ["variable.other.object"],
       "settings": {
         // "foreground": "#f5f7ff"
-        "foreground": "#97a3c6"
+        "foreground": "#96a2c6"
       }
     },
     {
