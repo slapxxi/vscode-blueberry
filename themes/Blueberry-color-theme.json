@@ -272,7 +272,8 @@
       "name": "Object Key",
       "scope": [
         "variable.object.property",
-        "support.type.property-name",
+        "support.type",
+        // "support.type.property-name",
         "meta.tag.attributes entity.other.attribute-name",
         "meta.object-literal.key",
         "variable.graphql",
@@ -354,7 +355,6 @@
       "scope": [
         "support.constant.core.rust",
         "constant",
-        "support.type",
         "support.constant.color",
         "string.other.link",
         // treat as a constant
