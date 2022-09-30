@@ -2,6 +2,7 @@
   "name": "Blueberry",
   "type": "dark",
   "colors": {
+    "editorGutter.foldingControlForeground": "#525979",
     "editor.findMatchBorder": "#ff0000",
 
     /* UNUSED CODE */
