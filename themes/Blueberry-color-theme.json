@@ -283,6 +283,7 @@
         "meta.type_params.rust",
         "support.variable.property",
         "variable.other.property",
+        "variable.other.object.property",
         "meta.array.literal variable.other"
       ],
       "settings": {
