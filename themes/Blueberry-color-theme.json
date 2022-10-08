@@ -508,6 +508,7 @@
         "entity.other.inherited-class",
         "variable.postcss",
         "variable.parameter",
+        "meta.type.parameters entity.name.type",
         "meta.class meta.definition.property variable.object.property"
       ],
       "settings": {
