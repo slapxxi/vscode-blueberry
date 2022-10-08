@@ -308,7 +308,7 @@
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#535A7A"
+        "foreground": "#1166ff"
       }
     },
     {
