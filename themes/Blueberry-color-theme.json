@@ -263,7 +263,9 @@
         // "variable.parameter",
         "entity.name.function.tagged-template variable.other.property",
         "entity.other.attribute-name",
-        "variable.other.object.property"
+        "variable.other.object.property",
+        "meta.indexer.declaration variable.parameter",
+        "markup.bold.markdown"
       ],
       "settings": {
         "foreground": "#a7b2d4"
@@ -298,17 +300,10 @@
       }
     },
     {
-      "name": "Text Cursive",
-      "scope": ["meta.indexer.declaration variable.parameter", "markup.bold.markdown"],
-      "settings": {
-        "foreground": "#a7b2d4"
-      }
-    },
-    {
       "name": "Type",
       "scope": ["entity.name.type"],
       "settings": {
-        "foreground": "#1166ff"
+        "foreground": "#535A7A"
       }
     },
     {
@@ -321,11 +316,12 @@
         "support.function.calc.css",
         "support.function.transform.scss",
         "support.function.calc.scss",
-        "entity.name.tag support.class.component",
+        "support.constant.math",
         "entity.name.function.tagged-template",
-        "meta.function-call entity.name.function",
         "meta.function-call",
-        "support.constant.math"
+        "entity.name.tag support.class.component",
+        "meta.function-call entity.name.function",
+        "meta.field.declaration entity.name.type"
       ],
       "settings": {
         "foreground": "#1166ff"
@@ -334,6 +330,7 @@
     {
       "name": "Keyword",
       "scope": [
+        "keyword",
         "entity.name.function.rust",
         "support.function.std",
         "entity.name.tag.css",
@@ -342,7 +339,6 @@
         "entity.other.attribute-name.id",
         "entity.other.attribute-name.pseudo-class",
         "entity.other.attribute-name.pseudo-element",
-        "keyword",
         "punctuation.accessor",
         "punctuation.symbol.match-branch",
         "storage.modifier",
@@ -359,7 +355,6 @@
         "constant",
         "support.constant.color",
         "string.other.link",
-        // treat as a constant
         "keyword.other.unit",
         "support.variable.object.node",
         "support.variable.object.process",
@@ -439,9 +434,7 @@
         "punctuation.section.function",
         "punctuation.separator",
         "punctuation.terminator",
-        // GLSL
         "punctuation.section",
-        // GraphQL
         "punctuation.graphql",
         "punctuation.operation.graphql",
         "punctuation.colon.graphql",
@@ -508,11 +501,11 @@
         "entity.other.inherited-class",
         "variable.postcss",
         "variable.parameter",
+        "meta.type.parameters entity.name.type",
         "meta.class meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#f5f7ff",
-        "fontStyle": ""
+        "foreground": "#f5f7ff"
       }
     },
     {
