@@ -2,6 +2,11 @@
   "name": "Blueberry",
   "type": "dark",
   "colors": {
+    /* DEBUG */
+    "debugTokenExpression.name": "#FFC82A",
+    "debugTokenExpression.value": "#A7B2D5",
+    "debugTokenExpression.number": "#1AB2FF",
+
     "editorGutter.foldingControlForeground": "#535A7A",
     "editor.findMatchBorder": "#ff0000",
 
