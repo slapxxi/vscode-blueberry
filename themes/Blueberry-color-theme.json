@@ -148,6 +148,7 @@
     "inputValidation.warningBorder": "#ffc82a",
 
     /* LISTS */
+    "list.deemphasizedForeground": "#535a7a",
     "list.activeSelectionBackground": "#151528",
     "list.activeSelectionForeground": "#1166ff",
     "list.dropBackground": "#0f0f1c",
