@@ -4,7 +4,7 @@
   "colors": {
     /* DEBUG */
     "debugTokenExpression.name": "#FFC82A",
-    "debugTokenExpression.value": "#A7B2D5",
+    "debugTokenExpression.value": "#A7B2D6",
     "debugTokenExpression.number": "#1AB2FF",
 
     "editorGutter.foldingControlForeground": "#535A7A",
@@ -50,7 +50,7 @@
 
     /* EDITOR */
     "editor.background": "#0d0d16",
-    "editor.foreground": "#a7b2d5",
+    "editor.foreground": "#a7b2d6",
     "editor.findMatchBackground": "#5f7e9779",
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
@@ -112,7 +112,7 @@
     /* SUGGEST */
     "editorSuggestWidget.background": "#0f0f1c",
     "editorSuggestWidget.border": "#111122",
-    "editorSuggestWidget.foreground": "#a7b2d5",
+    "editorSuggestWidget.foreground": "#a7b2d6",
     "editorSuggestWidget.highlightForeground": "#1166ff",
     "editorSuggestWidget.selectedBackground": "#17172c",
     "editorWarning.border": null,
@@ -129,7 +129,7 @@
 
     /* THAT BORDER! */
     "focusBorder": "#0f0f1f",
-    "foreground": "#a7b2d5",
+    "foreground": "#a7b2d6",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
@@ -168,7 +168,7 @@
     "panel.background": "#0d0d16",
     "panel.border": "#0d0d16",
     "panelTitle.activeBorder": "#1166ff",
-    "panelTitle.activeForeground": "#a7b2d5",
+    "panelTitle.activeForeground": "#a7b2d6",
     "panelTitle.inactiveForeground": "#535A7A",
     "peekView.border": "#1166ff",
     "peekViewEditor.background": "#0d0d16",
@@ -192,10 +192,10 @@
     /* SIDEBAR */
     "sideBar.background": "#0d0d16",
     "sideBar.border": "#0d0d16",
-    "sideBar.foreground": "#a7b2d5",
+    "sideBar.foreground": "#a7b2d6",
     "sideBarSectionHeader.background": "#0d0d16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
-    "sideBarTitle.foreground": "#a7b2d5",
+    "sideBarTitle.foreground": "#a7b2d6",
 
     /* STATUSBAR */
     "statusBar.background": "#0d0d16",
@@ -273,7 +273,7 @@
         "markup.bold.markdown"
       ],
       "settings": {
-        "foreground": "#a7b2d5"
+        "foreground": "#a7b2d6"
       }
     },
     {
@@ -386,7 +386,7 @@
       "name": "Entities",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#a7b2d5"
+        "foreground": "#a7b2d6"
       }
     },
     {
@@ -461,7 +461,7 @@
       "scope": ["variable.other.object"],
       "settings": {
         // "foreground": "#f5f7ff"
-        "foreground": "#a7b2d5"
+        "foreground": "#a7b2d6"
       }
     },
     {
