@@ -2,6 +2,8 @@
   "name": "Blueberry",
   "type": "dark",
   "colors": {
+    "icon.foreground": "#535a7a",
+
     /* DEBUG */
     "debugTokenExpression.name": "#FFC82A",
     "debugTokenExpression.value": "#A7B2D6",
@@ -95,6 +97,7 @@
     /* INDENT */
     "editorIndentGuide.activeBackground": "#212131",
     "editorIndentGuide.background": "#191925",
+    "tree.indentGuidesStroke": "#212131",
 
     /* LINE NUMBER */
     "editorLineNumber.activeForeground": "#1166ff",
@@ -157,7 +160,7 @@
     "list.highlightForeground": "#1166ff",
     "list.hoverBackground": "#111122",
     "list.hoverForeground": "#f5f7ff",
-    "list.inactiveSelectionBackground": "#101018",
+    "list.inactiveSelectionBackground": "#0d0d16",
     "list.inactiveSelectionForeground": "#1166ff",
     "list.invalidItemForeground": "#975f94",
     "merge.border": null,
@@ -193,7 +196,7 @@
     /* SIDEBAR */
     "sideBar.background": "#0d0d16",
     "sideBar.border": "#0d0d16",
-    "sideBar.foreground": "#a7b2d6",
+    "sideBar.foreground": "#535a7a",
     "sideBarSectionHeader.background": "#0d0d16",
     "sideBarSectionHeader.foreground": "#f3f3ff",
     "sideBarTitle.foreground": "#a7b2d6",
