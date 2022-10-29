@@ -136,7 +136,7 @@
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.ignoredResourceForeground": "#395a75",
-    "gitDecoration.modifiedResourceForeground": "#55577033",
+    "gitDecoration.modifiedResourceForeground": "#55577088",
     "gitDecoration.untrackedResourceForeground": "#addb67ff",
     "input.background": "#0d0d16",
     "input.border": "#0d101c",
