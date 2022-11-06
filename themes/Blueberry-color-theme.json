@@ -327,6 +327,7 @@
         "support.function.calc.scss",
         "support.constant.math",
         "entity.name.function.tagged-template",
+        "entity.other.keyframe-offset",
         "meta.function-call",
         "entity.name.tag support.class.component",
         "meta.function-call entity.name.function",
@@ -351,6 +352,7 @@
         "punctuation.accessor",
         "punctuation.symbol.match-branch",
         "storage.modifier",
+        "variable.css",
         "storage.type.function"
       ],
       "settings": {
