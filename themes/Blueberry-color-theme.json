@@ -375,6 +375,8 @@
         "string.regexp keyword.control",
         "variable.other.constant",
         "variable.other.normal.shell",
+        "entity.name.tag.reference",
+        "entity.name.tag.wildcard",
         "variable.other.enummember"
       ],
       "settings": {
