@@ -32,7 +32,7 @@
     /* BREADCRUMBS */
     "breadcrumb.focusForeground": "#f5f7ff",
     "breadcrumb.foreground": "#242533",
-    "breadcrumbPicker.background": "#0f0f1c",
+    "breadcrumbPicker.background": "#121217",
 
     "button.background": "#1166ff",
     "button.foreground": "#f5f7ff",
@@ -46,7 +46,7 @@
     "diffEditor.insertedTextBorder": "#addb6733",
     "diffEditor.removedTextBackground": "#ef535033",
     "diffEditor.removedTextBorder": "#ef53504d",
-    "dropdown.background": "#0f0f1c",
+    "dropdown.background": "#121217",
     "dropdown.border": "#1166ff",
     "dropdown.foreground": "#f5f7ff",
 
@@ -91,8 +91,8 @@
     "editorGutter.modifiedBackground": "#0f5fff99",
 
     /* HOVER WIDGET! */
-    "editorHoverWidget.background": "#0f0f1c",
-    "editorHoverWidget.border": "#0f0f1f",
+    "editorHoverWidget.background": "#121217",
+    "editorHoverWidget.border": "#121217",
 
     /* INDENT */
     "editorIndentGuide.activeBackground": "#212131",
@@ -113,14 +113,18 @@
     "editorRuler.foreground": "#06060f",
 
     /* SUGGEST */
-    "editorSuggestWidget.background": "#0f0f1c",
-    "editorSuggestWidget.border": "#111122",
+    "editorSuggestWidget.background": "#131318",
+    "editorSuggestWidget.border": "#131318",
     "editorSuggestWidget.foreground": "#a7b2d6",
     "editorSuggestWidget.highlightForeground": "#1166ff",
-    "editorSuggestWidget.selectedBackground": "#17172c",
+    "editorSuggestWidget.selectedBackground": "#18181f",
     "editorWarning.border": null,
     "editorWarning.foreground": "#b39554",
     "editorWhitespace.foreground": null,
+
+    /* COMMAND PALETTE */
+    "quickInput.background": "#131318",
+    "quickInput.foreground": "#a7b2d6",
 
     /* !!! */
     "editorWidget.background": "#151528",
@@ -154,7 +158,7 @@
     "list.deemphasizedForeground": "#535a7a",
     "list.activeSelectionBackground": "#151528",
     "list.activeSelectionForeground": "#1166ff",
-    "list.dropBackground": "#0f0f1c",
+    "list.dropBackground": "#121217",
     "list.focusBackground": "#0f0f1f",
     "list.focusForeground": "#f5f7ff",
     "list.highlightForeground": "#1166ff",
