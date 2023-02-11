@@ -81,7 +81,6 @@
     "editorError.foreground": "#ff3c1a",
     "editorGroup.border": "#0e0e12",
     "editorGroup.dropBackground": "#0f5fff33",
-    "editorGroup.emptyBackground": "#04050f",
     "editorGroupHeader.noTabsBackground": "#0e0e12",
     "editorGroupHeader.tabsBackground": "#0e0e12",
     "editorGroupHeader.tabsBorder": "#0e0e12",
