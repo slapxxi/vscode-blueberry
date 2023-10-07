@@ -125,6 +125,10 @@
     "quickInput.background": "#131318",
     "quickInput.foreground": "#a7b2d5",
     "quickInputList.focusBackground": "#1a1a1f",
+    "commandCenter.activeBackground": "#0e0e12",
+    "commandCenter.background": "#0e0e12",
+    "commandCenter.border": "#0a0a10",
+    "commandCenter.activeBorder": "#1166ff",
 
     /* !!! */
     "editorWidget.background": "#151528",
