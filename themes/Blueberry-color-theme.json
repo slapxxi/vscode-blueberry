@@ -82,6 +82,7 @@
     "editorCursor.foreground": "#1166ff",
     "editorError.border": null,
     "editorError.foreground": "#ff3c1a",
+
     "editorGroup.border": "#0e0e12",
     "editorGroup.dropBackground": "#0f5fff33",
     "editorGroupHeader.noTabsBackground": "#0e0e12",
@@ -206,7 +207,8 @@
 
     /* SIDEBAR */
     "sideBar.background": "#0e0e12",
-    "sideBar.border": "#0e0e12",
+    "sideBar.border": "#14141a",
+    // "sideBar.border": "#0e0e12",
     "sideBar.foreground": "#535a7a",
     "sideBarSectionHeader.background": "#0e0e12",
     "sideBarSectionHeader.foreground": "#f3f3ff",
