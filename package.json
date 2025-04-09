@@ -4,6 +4,10 @@
   "description": "VSCode Theme",
   "version": "0.1.1",
   "publisher": "vscode-blur",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/slapxxi/vscode-blueberry"
+  },
   "engines": {
     "vscode": "^1.25.0"
   },
